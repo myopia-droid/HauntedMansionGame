@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: c54f1f9c1fdf2ee4b95f9d4ae51fd645
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8167061422156009228
+    second: bunnyBoss_0
+  - first:
+      213: -1611242134168291045
+    second: bunnyBoss_1
+  - first:
+      213: 1044156256977053084
+    second: bunnyBoss_2
+  - first:
+      213: 2659045309267853569
+    second: bunnyBoss_3
+  - first:
+      213: 8346154088023732690
+    second: bunnyBoss_4
+  - first:
+      213: -2154885534760371985
+    second: bunnyBoss_5
+  - first:
+      213: -713185865836396296
+    second: bunnyBoss_6
+  - first:
+      213: -6647029722482242740
+    second: bunnyBoss_7
+  - first:
+      213: -552263267892641214
+    second: bunnyBoss_8
+  - first:
+      213: 4852300463350190367
+    second: bunnyBoss_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bunnyBoss_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 864
+        width: 552
+        height: 561
+      alignment: 9
+      pivot: {x: 0.7434039, y: 0.94215196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0389158e4c8ae80800000000000000
+      internalID: -8167061422156009228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyBoss_1
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 912
+        width: 348
+        height: 384
+      alignment: 9
+      pivot: {x: 0.8547009, y: 0.14283545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19b1c1d0d7b3a9e0800000000000000
+      internalID: -1611242134168291045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyBoss_2
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 869
+        width: 537
+        height: 444
+      alignment: 9
+      pivot: {x: 0.50851333, y: 0.07783797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c956e1365969d7e00800000000000000
+      internalID: 1044156256977053084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyBoss_3
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 839
+        width: 189
+        height: 470
+      alignment: 9
+      pivot: {x: 0.27988073, y: 0.0839749}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101449cde93d6e420800000000000000
+      internalID: 2659045309267853569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyBoss_4
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1029
+        width: 104
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d134595cee73d370800000000000000
+      internalID: 8346154088023732690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyBoss_5
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 1007
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8faf0f50f4812e0800000000000000
+      internalID: -2154885534760371985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyBoss_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 90
+        width: 336
+        height: 636
+      alignment: 9
+      pivot: {x: 0.91689175, y: 0.946442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f00effcb314a16f0800000000000000
+      internalID: -713185865836396296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyBoss_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 127
+        width: 300
+        height: 558
+      alignment: 9
+      pivot: {x: 0.7397691, y: 0.06578362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b8bf35fa101c3a0800000000000000
+      internalID: -6647029722482242740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyBoss_8
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 97
+        width: 624
+        height: 633
+      alignment: 9
+      pivot: {x: 0.77908343, y: 0.9425771}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24243cedb77f558f0800000000000000
+      internalID: -552263267892641214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyBoss_9
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 45
+        width: 416
+        height: 665
+      alignment: 9
+      pivot: {x: 0.08137512, y: 0.949745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1193751095d65340800000000000000
+      internalID: 4852300463350190367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
