@@ -40,7 +40,7 @@ public class jumpBehaviour : StateMachineBehaviour
           animator.transform.localScale = Scaler;
 
           //moves enemy towards player
-          if (Vector2.Distance(animator.transform.position, target) > 1) {
+          if (Vector2.Distance(animator.transform.position, target) > 0.5) {
             animator.transform.position = Vector2.MoveTowards(animator.transform.position, target, speed * Time.deltaTime);
           }
       } else { //else if player dead return to idle animation
