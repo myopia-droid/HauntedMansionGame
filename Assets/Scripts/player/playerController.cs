@@ -21,6 +21,8 @@ public class playerController : MonoBehaviour {
   public int health;
   public Slider healthBar;
   public GameObject deathFX;
+  public Image healthBarFill;
+  public Color lowHealthColor;
   //public Collider2D enemyCollider; (i have no clue what i put these in here for)
   //public Collider2D playerCollider; (keeping them in just in case something breaks, will probably be these)
 
@@ -51,6 +53,7 @@ public class playerController : MonoBehaviour {
       shake = GameObject.FindGameObjectWithTag("CameraShake").GetComponent<cameraShake>();
       dashTime = startDashTime;
       originalSpeed = speed;
+      lowHealthColor = new Color(0.53725490196f, 0.21176470588f, 0.21176470588f, 1.0f);
     }
 
     void FixedUpdate() {
@@ -92,6 +95,12 @@ public class playerController : MonoBehaviour {
         Destroy(gameObject);
         shake.shake();
       }
+
+      //dynamic health bar colour
+      if (health <= 10)
+        {
+            healthBarFill.color = lowHealthColor;
+        }
 
       //player on ground/ double jumps
       if (isGrounded == true) {
