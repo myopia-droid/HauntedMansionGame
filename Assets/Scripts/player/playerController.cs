@@ -155,4 +155,11 @@ public class playerController : MonoBehaviour {
       public void takeDamage(int enemyDamage) {
       health -= enemyDamage;
     }
+
+    //collect the coins
+    void OnTriggerEnter2D(Collider2D other){
+      if(other.gameObject.CompareTag("Coins")){
+        Destroy(other.gameObject);
+      }
+    }
 }
