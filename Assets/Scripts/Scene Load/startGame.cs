@@ -7,6 +7,6 @@ public class startGame : MonoBehaviour
 {
     void OnMouseDown()
     {
-        SceneManager.LoadScene("Main scene");
+        SceneManager.LoadScene("Level1Intro");
     }
 }

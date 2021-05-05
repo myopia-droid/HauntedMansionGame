@@ -21,4 +21,9 @@ public class ScoreManager : MonoBehaviour
         score +=coinValue;
         text.text= "X " + score;
     }
+
+    public double getscore()
+    {
+        return score;
+    }
 }
