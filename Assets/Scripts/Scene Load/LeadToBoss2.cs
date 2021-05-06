@@ -8,12 +8,20 @@ public class LeadToBoss2 : MonoBehaviour
 {
     public Text showpresse;
     public GameObject door;
+    //public GameObject girl;
+
+    void start()
+    {
+        //light.GetComponent<Light>().intensity=0; 
+
+    }
 
     void OnTriggerStay2D(Collider2D other){
-        //if(door.GetComponent<Renderer>().enabled)
-        //{
+        if(door.GetComponent<Renderer>().enabled==true)
+        {
         if(other.CompareTag("Player"))
         {
+            //light.GetComponent<Light>().intensity=10; 
             showpresse.enabled=true;
             showpresse.text= "Press [E] to Boss Room!";
             if(Input.GetKeyDown("e")){
@@ -21,7 +29,7 @@ public class LeadToBoss2 : MonoBehaviour
             }
             
         }
-       // }
+        }
     }
 
     void OnTriggerExit2D(Collider2D other){

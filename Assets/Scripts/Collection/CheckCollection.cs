@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class CheckCollection : MonoBehaviour
 {
-    public GameObject door;
+    public GameObject girl;
+    //public GameObject light;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,9 +16,10 @@ public class CheckCollection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(ScoreManager.instance.getscore()==3)
+        if(ScoreManager.instance.getscore()>=3)
         {
-            door.GetComponent<Renderer>().enabled=true;
+            girl.GetComponent<Renderer>().enabled=true;
+            //light.GetComponent<Light>().intensity=5;
         }
     }
 }

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DoorMessage : MonoBehaviour
+public class ResetMessage : MonoBehaviour
 {
     public Text showpresse;
     // Start is called before the first frame update
     void Start()
     {
-        showpresse.enabled=false;
+        showpresse.GetComponent<Renderer>().enabled=false;
     }
 
     // Update is called once per frame
