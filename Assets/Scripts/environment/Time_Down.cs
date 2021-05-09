@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Time_Down : MonoBehaviour
 {
-    int count_down = 100 + 1;
+    int count_down = 150 + 1;
     void Start () {
         GetComponent<UnityEngine.UI.Text> ().text = ""+count_down;
         InvokeRepeating ("Time_count", 0f, 1.0F);
