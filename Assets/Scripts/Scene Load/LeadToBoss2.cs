@@ -25,7 +25,7 @@ public class LeadToBoss2 : MonoBehaviour
             showpresse.enabled=true;
             showpresse.text= "Press [E] to Boss Room!";
             if(Input.GetKeyDown("e")){
-                SceneManager.LoadScene("Boss room 1");
+                SceneManager.LoadScene("EndofPlatform2");
             }
             
         }
