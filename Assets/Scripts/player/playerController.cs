@@ -46,6 +46,10 @@ public class playerController : MonoBehaviour {
   public float knockbackLength;
   public float knockbackCount;
   public bool knockFromRight;
+  
+  private float collectibleCount;
+  public Text collectibleCounter;
+  public string collectibleType;
 
     // Start is called before the first frame update
     void Start() {
@@ -55,6 +59,9 @@ public class playerController : MonoBehaviour {
       dashTime = startDashTime;
       originalSpeed = speed;
       lowHealthColor = new Color(0.53725490196f, 0.21176470588f, 0.21176470588f, 1.0f);
+      
+      collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
+      collectibleCount = PlayerPrefs.GetFloat(collectibleType);
     }
 
     void FixedUpdate() {
@@ -142,6 +149,20 @@ public class playerController : MonoBehaviour {
         speed = originalSpeed;
         countdown = false;
       }
+      
+      //resets playerprefs used for testing
+      if (Input.GetKeyDown(KeyCode.R)) {
+        PlayerPrefs.DeleteKey(collectibleType);
+        collectibleCount = 0;
+        PlayerPrefs.Save();
+        Debug.Log("reset" + PlayerPrefs.GetFloat(collectibleType));
+      }
+
+      if (Input.GetKeyDown(KeyCode.T)) {
+        Debug.Log("checksave" + PlayerPrefs.GetFloat(collectibleType));
+      }
+
+      collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
     }
 
     //player flipper
@@ -163,4 +184,16 @@ public class playerController : MonoBehaviour {
         Destroy(other.gameObject);
       }
     }
+  
+  //picks up collectibles (specify type in inspector)
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.CompareTag("collectible")) {
+          Destroy(other.gameObject);
+          collectibleCount += 0.5f;
+          PlayerPrefs.SetFloat(collectibleType, collectibleCount);
+          PlayerPrefs.Save();
+          Debug.Log("saved" + PlayerPrefs.GetFloat(collectibleType));
+          Debug.Log("savedcol" + collectibleCount);
+        }
+      }
 }
