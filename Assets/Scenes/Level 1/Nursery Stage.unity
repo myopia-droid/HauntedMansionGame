@@ -1667,7 +1667,7 @@ PrefabInstance:
       objectReference: {fileID: 1270547182}
     - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: doubleJump
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: collectibleType

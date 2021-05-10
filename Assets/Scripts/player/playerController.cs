@@ -112,7 +112,7 @@ public class playerController : MonoBehaviour {
 
       //player on ground/ double jumps
       if (isGrounded == true) {
-        doubleJump = 2;
+        jumpTimes = doubleJump;
         anim.SetBool("isJumping", false);
       } else {
         anim.SetBool("isJumping", true);
