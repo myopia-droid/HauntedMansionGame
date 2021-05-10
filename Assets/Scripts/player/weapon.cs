@@ -20,7 +20,7 @@ public class weapon : MonoBehaviour {
 
       //if weapon use is not on cooldown, shoot, else decrease cooldown
       if (timeBtwnShots <= 0) {
-        if (Input.GetKeyDown("space")) {
+        if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.J)) {
           Instantiate(projectile, shotPoint.position, transform.rotation);
           timeBtwnShots = startTimeBtwnShots;
         }
