@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Boss room 1.unity
-    guid: cd7211bbe6d6f664ea3fd70086db1cad
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/PlatForm 2.unity
     guid: 9658b6e9f2f58e74ba43bed0e1863187
@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndofPlatform2.unity
     guid: 7c60c6765b3c1bb41a1131802d3ef7bd
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Nursery Boss.unity
+    guid: f9af25e311946104b863aaef30699f13
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Nursery Platformer.unity
+    guid: dac83415b3441d24a9f16358cc6fd38d
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Nursery Stage.unity
+    guid: 4e2610ca255715144b52f19d3a230921
   m_configObjects: {}
