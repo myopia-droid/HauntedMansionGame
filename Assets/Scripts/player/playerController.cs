@@ -60,6 +60,7 @@ public class playerController : MonoBehaviour {
       originalSpeed = speed;
       lowHealthColor = new Color(0.53725490196f, 0.21176470588f, 0.21176470588f, 1.0f);
 
+      //sets collectible amount in UI and reads from playerprefs
       collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
       collectibleCount = PlayerPrefs.GetFloat(collectibleType);
     }
