@@ -46,7 +46,7 @@ public class playerController : MonoBehaviour {
   public float knockbackLength;
   public float knockbackCount;
   public bool knockFromRight;
-  
+
   private float collectibleCount;
   public Text collectibleCounter;
   public string collectibleType;
@@ -59,7 +59,7 @@ public class playerController : MonoBehaviour {
       dashTime = startDashTime;
       originalSpeed = speed;
       lowHealthColor = new Color(0.53725490196f, 0.21176470588f, 0.21176470588f, 1.0f);
-      
+
       collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
       collectibleCount = PlayerPrefs.GetFloat(collectibleType);
     }
@@ -149,7 +149,7 @@ public class playerController : MonoBehaviour {
         speed = originalSpeed;
         countdown = false;
       }
-      
+
       //resets playerprefs used for testing
       if (Input.GetKeyDown(KeyCode.R)) {
         PlayerPrefs.DeleteKey(collectibleType);
@@ -179,12 +179,12 @@ public class playerController : MonoBehaviour {
     }
 
     //collect the coins
-    void OnTriggerEnter2D(Collider2D other){
+    /*void OnTriggerEnter2D(Collider2D other){
       if(other.gameObject.CompareTag("Coins")){
         Destroy(other.gameObject);
       }
-    }
-  
+    }*/
+
   //picks up collectibles (specify type in inspector)
     void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("collectible")) {
