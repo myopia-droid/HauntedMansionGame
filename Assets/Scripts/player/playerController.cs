@@ -178,13 +178,6 @@ public class playerController : MonoBehaviour {
       health -= enemyDamage;
     }
 
-    //collect the coins
-    /*void OnTriggerEnter2D(Collider2D other){
-      if(other.gameObject.CompareTag("Coins")){
-        Destroy(other.gameObject);
-      }
-    }*/
-
   //picks up collectibles (specify type in inspector)
     void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("collectible")) {
@@ -194,6 +187,10 @@ public class playerController : MonoBehaviour {
           PlayerPrefs.Save();
           Debug.Log("saved" + PlayerPrefs.GetFloat(collectibleType));
           Debug.Log("savedcol" + collectibleCount);
+        }
+
+        if(other.gameObject.CompareTag("Coins")){
+          Destroy(other.gameObject);
         }
       }
 }
