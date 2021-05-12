@@ -383,7 +383,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -810692387
-  m_SortingLayer: -2
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dbcd1bb2f732dfa4ba655cc6b08cb04f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -492,7 +492,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -577226773
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c94cdcd19b8220348a77e39a25e6915f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -574,7 +574,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -810692387
-  m_SortingLayer: -2
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dbcd1bb2f732dfa4ba655cc6b08cb04f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -732,7 +732,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -577226773
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c94cdcd19b8220348a77e39a25e6915f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1168,7 +1168,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -577226773
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c94cdcd19b8220348a77e39a25e6915f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1369,6 +1369,10 @@ PrefabInstance:
       propertyPath: healthBarFill
       value: 
       objectReference: {fileID: 875172339}
+    - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: collectibleExists
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2986808667962475633, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1465,7 +1469,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -810692387
-  m_SortingLayer: -2
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dbcd1bb2f732dfa4ba655cc6b08cb04f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1564,7 +1568,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -577226773
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c94cdcd19b8220348a77e39a25e6915f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2064,6 +2068,10 @@ MonoBehaviour:
   healthBar: {fileID: 602413432}
   damage: 5
   deathFX: {fileID: 3386684385487062685, guid: bb2c0345cafb31e4ab17df6b67544696, type: 3}
+  isBoss: 0
+  door: {fileID: 0}
+  player: {fileID: 0}
+  heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!50 &2076798470
 Rigidbody2D:
   serializedVersion: 4

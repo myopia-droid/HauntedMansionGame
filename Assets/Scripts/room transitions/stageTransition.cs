@@ -16,10 +16,11 @@ public class stageTransition : MonoBehaviour {
 
     void OnTriggerExit2D() {
       doorEntered = false;
+      Debug.Log("door unentered" + doorEntered);
     }
 
     void Update() {
-      if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) && doorEntered == true) {
+      if (Input.GetKeyDown(KeyCode.UpArrow) && doorEntered == true || Input.GetKeyDown(KeyCode.W) && doorEntered == true) {
         SceneManager.LoadScene(areaToLoad);
       }
     }
