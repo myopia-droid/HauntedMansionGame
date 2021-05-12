@@ -11,10 +11,16 @@ public class enemyMechs : MonoBehaviour {
   public GameObject deathFX;
   public bool isBoss;
   public GameObject door;
+  public GameObject collectible;
   public GameObject player;
 
   public GameObject heart;
   const float dropChance = 3f / 5f;
+
+  //adjust this to change speed
+  float speed = 5f;
+  //adjust this to change how high it goes
+  float height = 0.5f;
 
 //main script that sets enemy values like HP and how much damage it can deal per hit
     void Update() {
@@ -27,6 +33,7 @@ public class enemyMechs : MonoBehaviour {
         Destroy(gameObject);
         if (isBoss == true) {
           Instantiate(door, new Vector3(player.transform.position.x, -0.77f, 0), Quaternion.identity);
+          Instantiate(collectible, new Vector3(transform.position.x + 0.77f, transform.position.y, 0), Quaternion.identity);
         }
       }
     }
