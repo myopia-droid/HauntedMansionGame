@@ -9,6 +9,7 @@ TagManager:
   - Coins
   - collectible
   - heart
+  - walls
   layers:
   - Default
   - TransparentFX
