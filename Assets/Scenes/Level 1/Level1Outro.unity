@@ -730,7 +730,7 @@ GameObject:
   - component: {fileID: 984059772}
   - component: {fileID: 984059771}
   m_Layer: 0
-  m_Name: DialogTester
+  m_Name: Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -745,7 +745,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 984059770}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af59b715d564ae9488e8438d6860bc3b, type: 3}
+  m_Script: {fileID: 11500000, guid: eb94512815dd4b64d8cdaeb3c9f3bd67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DialogManager: {fileID: 972159006}

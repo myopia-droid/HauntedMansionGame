@@ -25,7 +25,7 @@ public class LevelOneOutroDialogue : MonoBehaviour
 
     void GoToLevelSelect()
     {
-        SceneManager.LoadScene("LevelSelect");
+        SceneManager.LoadScene("Level2Intro");
     }
 }
 /*
