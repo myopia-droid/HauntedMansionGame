@@ -23,8 +23,8 @@ public class LeadToBoss2 : MonoBehaviour
         {
             //light.GetComponent<Light>().intensity=10; 
             showpresse.enabled=true;
-            showpresse.text= "Press [E] to Boss Room!";
-            if(Input.GetKeyDown("e")){
+            showpresse.text= "Press [W] to next stage!";
+            if(Input.GetKeyDown("w")||Input.GetKeyDown("w")){
                 SceneManager.LoadScene("EndofPlatform2");
             }
             
