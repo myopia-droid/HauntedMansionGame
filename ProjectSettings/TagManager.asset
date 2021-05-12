@@ -50,6 +50,9 @@ TagManager:
   - name: Background2
     uniqueID: 491382523
     locked: 0
+  - name: Portraits
+    uniqueID: 1787568289
+    locked: 0
   - name: Platforms
     uniqueID: 3717740523
     locked: 0
