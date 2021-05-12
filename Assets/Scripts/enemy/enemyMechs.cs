@@ -12,14 +12,18 @@ public class enemyMechs : MonoBehaviour {
   public bool isBoss;
   public GameObject door;
   public GameObject player;
+
   public GameObject heart;
+  const float dropChance = 3f / 5f;
 
 //main script that sets enemy values like HP and how much damage it can deal per hit
     void Update() {
       healthBar.value = health;
       if (health <= 0) {
         Instantiate(deathFX, transform.position, Quaternion.identity);
-        Instantiate(heart, transform.position, Quaternion.identity); //drops heart
+        if(Random.Range(0f, 1f) <= dropChance) {
+          Instantiate(heart, transform.position, Quaternion.identity); //drops heart
+        }
         Destroy(gameObject);
         if (isBoss == true) {
           Instantiate(door, new Vector3(player.transform.position.x, -0.77f, 0), Quaternion.identity);

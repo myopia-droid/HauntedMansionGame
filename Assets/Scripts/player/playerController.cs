@@ -50,6 +50,7 @@ public class playerController : MonoBehaviour {
   private float collectibleCount;
   public Text collectibleCounter;
   public string collectibleType;
+  public bool collectibleExists;
 
     // Start is called before the first frame update
     void Start() {
@@ -61,7 +62,9 @@ public class playerController : MonoBehaviour {
       lowHealthColor = new Color(0.53725490196f, 0.21176470588f, 0.21176470588f, 1.0f);
 
       //sets collectible amount in UI and reads from playerprefs
-      collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
+      if (collectibleExists == true) {
+        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
+      }
       collectibleCount = PlayerPrefs.GetFloat(collectibleType);
     }
 
@@ -163,7 +166,9 @@ public class playerController : MonoBehaviour {
         Debug.Log("checksave" + PlayerPrefs.GetFloat(collectibleType));
       }
 
-      collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
+      if (collectibleExists == true) {
+        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
+      }
     }
 
     //player flipper
@@ -191,6 +196,11 @@ public class playerController : MonoBehaviour {
         }
 
         if(other.gameObject.CompareTag("Coins")){
+          Destroy(other.gameObject);
+        }
+
+        if (other.gameObject.CompareTag("heart")) {
+          health += 5;
           Destroy(other.gameObject);
         }
       }
