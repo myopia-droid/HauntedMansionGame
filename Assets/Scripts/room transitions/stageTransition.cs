@@ -19,7 +19,7 @@ public class stageTransition : MonoBehaviour {
     }
 
     void Update() {
-      if (Input.GetKeyDown(KeyCode.UpArrow) && doorEntered == true) {
+      if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) && doorEntered == true) {
         SceneManager.LoadScene(areaToLoad);
       }
     }
