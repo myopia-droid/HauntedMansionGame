@@ -1610,6 +1610,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaToLoad: Nursery Platformer
+  player: {fileID: 0}
+  collectiblesPerStage: 0
 --- !u!1001 &1799710173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1672,6 +1674,14 @@ PrefabInstance:
     - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: collectibleType
       value: nursery gears
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: maxCollectibles
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: collectibleExists
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: collectibleCounter

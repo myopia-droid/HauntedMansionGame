@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4492569598803527945}
   - component: {fileID: 2129021314458025169}
   m_Layer: 0
-  m_Name: elevator door
+  m_Name: to nursery door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,3 +123,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaToLoad: Nursery Stage
+  player: {fileID: 0}
+  collectiblesPerStage: 1

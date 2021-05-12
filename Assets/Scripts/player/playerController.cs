@@ -47,7 +47,8 @@ public class playerController : MonoBehaviour {
   public float knockbackCount;
   public bool knockFromRight;
 
-  private float collectibleCount;
+  public float collectibleCount;
+  public float maxCollectibles;
   public Text collectibleCounter;
   public string collectibleType;
   public bool collectibleExists;
@@ -63,7 +64,7 @@ public class playerController : MonoBehaviour {
 
       //sets collectible amount in UI and reads from playerprefs
       if (collectibleExists == true) {
-        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
+        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString() + "/" + maxCollectibles.ToString();
       }
       collectibleCount = PlayerPrefs.GetFloat(collectibleType);
     }
@@ -167,7 +168,7 @@ public class playerController : MonoBehaviour {
       }
 
       if (collectibleExists == true) {
-        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
+        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString() + "/" + maxCollectibles.ToString();
       }
     }
 
