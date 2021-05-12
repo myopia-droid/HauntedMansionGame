@@ -21,9 +21,9 @@ public class GirlControler : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             showpresse.enabled=true;
-            showpresse.text= "Press [E] to give her cloth!";
+            showpresse.text= "Press [w] to give her cloth!";
             //light.GetComponent<Light>().intensity=10; 
-            if(Input.GetKeyDown("e")){
+            if(Input.GetKeyDown("w")||Input.GetKeyDown("w")){
                 door.GetComponent<Renderer>().enabled=true;
                 light.GetComponent<Light>().intensity=5;
             }
