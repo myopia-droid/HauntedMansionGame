@@ -201,7 +201,7 @@ public class playerController : MonoBehaviour {
         }
 
         if (other.gameObject.CompareTag("heart")) {
-          health += 5;
+          health += 2.5;
           Destroy(other.gameObject);
         }
       }
