@@ -19,7 +19,7 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     public void ChangeScore(double coinValue){
         score +=coinValue;
-        text.text=score + "/3";
+        text.text= "X " + score;
     }
 
     public double getscore()

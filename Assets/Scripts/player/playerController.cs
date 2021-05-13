@@ -18,7 +18,7 @@ public class playerController : MonoBehaviour {
   public float startTimeBtwnDash;
   private bool countdown;
 
-  public float health;
+  public int health;
   public Slider healthBar;
   public GameObject deathFX;
   public Image healthBarFill;
@@ -47,8 +47,7 @@ public class playerController : MonoBehaviour {
   public float knockbackCount;
   public bool knockFromRight;
 
-  public float collectibleCount;
-  public float maxCollectibles;
+  private float collectibleCount;
   public Text collectibleCounter;
   public string collectibleType;
   public bool collectibleExists;
@@ -64,7 +63,7 @@ public class playerController : MonoBehaviour {
 
       //sets collectible amount in UI and reads from playerprefs
       if (collectibleExists == true) {
-        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString() + "/" + maxCollectibles.ToString();
+        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
       }
       collectibleCount = PlayerPrefs.GetFloat(collectibleType);
     }
@@ -168,7 +167,7 @@ public class playerController : MonoBehaviour {
       }
 
       if (collectibleExists == true) {
-        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString() + "/" + maxCollectibles.ToString();
+        collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString();
       }
     }
 
@@ -201,7 +200,7 @@ public class playerController : MonoBehaviour {
         }
 
         if (other.gameObject.CompareTag("heart")) {
-          health += 2.5f;
+          health += 5;
           Destroy(other.gameObject);
         }
       }

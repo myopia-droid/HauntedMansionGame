@@ -38,10 +38,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1/Nursery Stage.unity
     guid: 4e2610ca255715144b52f19d3a230921
-  - enabled: 1
-    path: Assets/Scenes/Level4/Level4 first.unity
-    guid: e91cd1bf80f248a4b9886f458d9d6ea6
-  - enabled: 1
-    path: Assets/Scenes/Level4/Level4 conservatory.unity
-    guid: 46faa0e3e687fe446bbc77d5b0097778
   m_configObjects: {}

@@ -12,13 +12,13 @@ public class LevelFourIntroDialogue : MonoBehaviour
     {
         var dialogTexts = new List<DialogData>();
 
-        dialogTexts.Add(new DialogData("Your lantern is running out of fuel. It is getting\nharder to see.", "Narrator"));
-        dialogTexts.Add(new DialogData("Please could you help me? I can not find my mother.", "Boy"));
+        dialogTexts.Add(new DialogData("Your lantern is running out of fuel. It’s getting harder to see.", "Narrator"));
+        dialogTexts.Add(new DialogData("Please could you help me? I can’t find my mother.", "Boy"));
         dialogTexts.Add(new DialogData("Are you lost?", "Protagonist"));
         dialogTexts.Add(new DialogData("Mother and I got separated. We were on our way to the conservatory when I saw a beetle and let go of her hand to pick it up.", "Boy"));
-        dialogTexts.Add(new DialogData("Now I donï¿½t know where she is, and I do not want to walk the\nhalls without her.", "Boy"));
+        dialogTexts.Add(new DialogData("Now I don’t know where she is, and I don’t want to walk the halls without her.", "Boy"));
         dialogTexts.Add(new DialogData("How about I see if I can find her? You said the two of you were going to the conservatory?", "Protagonist"));
-        DialogData finalLine = new DialogData("Yes! Mother is an accomplished pianist. You will know\nit is her by the hairpin Father gave her - gold with a blue flower.\nPlease hurry - I know she must be worried about me.", "Boy");
+        DialogData finalLine = new DialogData("Yes! Mother is an accomplished pianist. You’ll know it’s her by the hairpin Father gave her - gold with a blue flower. Please hurry - I know she must be worried about me.", "Boy");
         dialogTexts.Add(finalLine);
 
         DialogManager.Show(dialogTexts);
@@ -29,6 +29,6 @@ public class LevelFourIntroDialogue : MonoBehaviour
 
     void GoToPlatformer()
     {
-        SceneManager.LoadScene("Level4 first");
+        SceneManager.LoadScene("Main scene");
     }
 }

@@ -9,7 +9,6 @@ TagManager:
   - Coins
   - collectible
   - heart
-  - walls
   layers:
   - Default
   - TransparentFX
@@ -50,9 +49,6 @@ TagManager:
   - name: Background2
     uniqueID: 491382523
     locked: 0
-  - name: Portraits
-    uniqueID: 1787568289
-    locked: 0
   - name: Platforms
     uniqueID: 3717740523
     locked: 0
@@ -73,7 +69,4 @@ TagManager:
     locked: 0
   - name: Effects
     uniqueID: 1813543175
-    locked: 0
-  - name: 
-    uniqueID: 561699249
     locked: 0
