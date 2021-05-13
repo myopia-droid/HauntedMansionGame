@@ -145,7 +145,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b4377da49d608cb469b159e5a86e1bfd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -198,4 +198,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   playerController: {fileID: 0}
-  destroyMagic: {fileID: 0}
+  destroyMagic: {fileID: 3386684385487062685, guid: 5b533c096b7d28244b902d9bfb226bc6, type: 3}
