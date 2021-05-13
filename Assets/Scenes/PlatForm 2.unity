@@ -3801,7 +3801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b24c00fcd3ee5fb4893e81c98c430318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 137755511}
   parallaxValue: 0.1
 --- !u!212 &1912355568
 SpriteRenderer:
