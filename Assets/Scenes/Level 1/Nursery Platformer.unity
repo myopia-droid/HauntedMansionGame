@@ -340,7 +340,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -810692387
-  m_SortingLayer: -4
+  m_SortingLayer: -5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 13245892c2020fc498082fbeefb9d3b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -588,7 +588,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -810692387
-  m_SortingLayer: -4
+  m_SortingLayer: -5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: aaa65aba5030989478403f566d542ebb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -812,7 +812,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -810692387
-  m_SortingLayer: -4
+  m_SortingLayer: -5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: aaa65aba5030989478403f566d542ebb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1027,6 +1027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2986808668704438806, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 1352628592679368395, guid: 8072b355b681e4a4982238441bd4ff5c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
 --- !u!1 &727086087
@@ -1629,7 +1633,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -810692387
-  m_SortingLayer: -4
+  m_SortingLayer: -5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 13245892c2020fc498082fbeefb9d3b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
