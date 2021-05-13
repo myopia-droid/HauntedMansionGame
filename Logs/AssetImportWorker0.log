@@ -1159,3 +1159,36 @@ System memory in use after: 90.9 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2518.
 Total: 2.650100 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.121900 ms MarkObjects: 2.248200 ms  DeleteObjects: 0.020000 ms)
 
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.000891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2492.
+Total: 1.783100 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.065000 ms MarkObjects: 1.483700 ms  DeleteObjects: 0.026600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1706.536419 seconds.
+  path: Assets/Scenes/PlatForm 2.unity
+  artifactKey: Guid(9658b6e9f2f58e74ba43bed0e1863187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlatForm 2.unity using Guid(9658b6e9f2f58e74ba43bed0e1863187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ae9bbb2449b6c2ebf7ebd3a2e36cef') in 0.011993 seconds
+  Import took 0.015169 seconds .
+
