@@ -18,7 +18,7 @@ public class playerController : MonoBehaviour {
   public float startTimeBtwnDash;
   private bool countdown;
 
-  public int health;
+  public float health;
   public Slider healthBar;
   public GameObject deathFX;
   public Image healthBarFill;
@@ -201,7 +201,7 @@ public class playerController : MonoBehaviour {
         }
 
         if (other.gameObject.CompareTag("heart")) {
-          health += 2.5;
+          health += 2.5f;
           Destroy(other.gameObject);
         }
       }
