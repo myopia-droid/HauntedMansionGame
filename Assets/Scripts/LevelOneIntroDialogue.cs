@@ -29,6 +29,6 @@ public class LevelOneIntroDialogue : MonoBehaviour
 
     void GoToPlatformer()
     {
-        SceneManager.LoadScene("Main scene");
+        SceneManager.LoadScene("Nursery Stage");
     }
 }

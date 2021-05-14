@@ -27,6 +27,6 @@ public class MessageP2End : MonoBehaviour
 
     public void GoToMainScene()
     {
-        SceneManager.LoadScene("LevelSelect");
+        SceneManager.LoadScene("Level3Intro");
     }
 }
