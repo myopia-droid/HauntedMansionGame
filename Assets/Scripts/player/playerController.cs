@@ -124,10 +124,12 @@ public class playerController : MonoBehaviour {
       }
 
       //if there is more than no jumps, jump
-      if (Input.GetKeyDown(KeyCode.Space) && jumpTimes > 0) {
+      if (Input.GetKeyDown(KeyCode.Space) && jumpTimes > 1) {
         anim.SetTrigger("takeoff");
         rb.velocity = Vector2.up * jumpForce;
-        jumpTimes--;
+        jumpTimes -= 1;
+        Debug.Log(jumpTimes);
+        Debug.Log(isGrounded);
       } else if (Input.GetKeyDown(KeyCode.Space) && jumpTimes == 0 && isGrounded == true) {
         anim.SetTrigger("takeoff");
         rb.velocity = Vector2.up * jumpForce;
