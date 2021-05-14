@@ -7,6 +7,11 @@ using UnityEngine.SceneManagement;
 public class LevelFourIntroDialogue : MonoBehaviour
 {
     public DialogManager DialogManager;
+    private float health;
+
+    void Start() {
+      health = PlayerPrefs.GetFloat("health");
+    }
 
     void Awake()
     {
@@ -32,5 +37,6 @@ public class LevelFourIntroDialogue : MonoBehaviour
     {
         SceneManager.LoadScene("Level4 first");
         PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetFloat("health", health);
     }
 }

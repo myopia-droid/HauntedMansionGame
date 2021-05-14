@@ -67,6 +67,10 @@ public class playerController : MonoBehaviour {
         collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString() + "/" + maxCollectibles.ToString();
       }
       collectibleCount = PlayerPrefs.GetFloat(collectibleType);
+
+      if (PlayerPrefs.GetFloat("health") > 0) {
+        health = PlayerPrefs.GetFloat("health");
+      }
     }
 
     void FixedUpdate() {
@@ -103,6 +107,8 @@ public class playerController : MonoBehaviour {
     void Update() {
       //player HP controls
       healthBar.value = health;
+      PlayerPrefs.SetFloat("health", health);
+
       if (health <= 0) {
         Instantiate(deathFX, transform.position, Quaternion.identity);
         Destroy(gameObject);

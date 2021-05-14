@@ -10,6 +10,8 @@ public class ReloadCurrentScene : MonoBehaviour
     public GameObject player;
     private playerController playerScript;
 
+    private float health;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,7 @@ public class ReloadCurrentScene : MonoBehaviour
         sceneName = scene.name;
 
         playerScript = player.GetComponent<playerController>();
+        health = PlayerPrefs.GetFloat("health");
     }
 
     // Update is called once per frame
@@ -37,5 +40,6 @@ public class ReloadCurrentScene : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
         PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetFloat("health", health);
     }
 }
