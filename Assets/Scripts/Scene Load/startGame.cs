@@ -8,5 +8,6 @@ public class startGame : MonoBehaviour
     void OnMouseDown()
     {
         SceneManager.LoadScene("Level1Intro");
+        PlayerPrefs.DeleteAll();
     }
 }
