@@ -1246,7 +1246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1616177742}
-  targetSceneString: Main scene
+  targetSceneString: Tutorial
 --- !u!222 &1616177745
 CanvasRenderer:
   m_ObjectHideFlags: 0

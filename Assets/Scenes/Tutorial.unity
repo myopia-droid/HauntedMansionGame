@@ -756,6 +756,8 @@ GameObject:
   m_Component:
   - component: {fileID: 376049924}
   - component: {fileID: 376049923}
+  - component: {fileID: 376049925}
+  - component: {fileID: 376049926}
   m_Layer: 0
   m_Name: BlackDoor
   m_TagString: Untagged
@@ -828,6 +830,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &376049925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376049922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f79fcf96ca136498549ac8c37f511d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  areaToLoad: Level1Intro
+  player: {fileID: 1022414426}
+  collectiblesPerStage: 0
+--- !u!61 &376049926
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376049922}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0000019073486, y: -0.03183198}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.24, y: 10.24}
+    newSize: {x: 10.24, y: 10.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.3828917, y: 6.9931226}
+  m_EdgeRadius: 0
 --- !u!224 &399174056 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7193567753640498725, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
@@ -1810,6 +1853,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2986808667962475405, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: m_GravityScale
+      value: 4.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: healthBar
       value: 
@@ -1826,12 +1873,27 @@ PrefabInstance:
       propertyPath: collectibleExists
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: startTimeBtwnDash
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2986808667962475633, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+--- !u!114 &1022414426 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+  m_PrefabInstance: {fileID: 1022414425}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913ff8e2e1c42a94d866425b869ccfe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1038296864
 GameObject:
   m_ObjectHideFlags: 0

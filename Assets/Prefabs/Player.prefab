@@ -108,10 +108,12 @@ MonoBehaviour:
   jumpForce: 15
   dashSpeed: 10
   startDashTime: 0.5
-  startTimeBtwnDash: 3
+  startTimeBtwnDash: 1
   health: 20
   healthBar: {fileID: 0}
   deathFX: {fileID: 3386684385487062685, guid: bb2c0345cafb31e4ab17df6b67544696, type: 3}
+  healthBarFill: {fileID: 0}
+  lowHealthColor: {r: 0, g: 0, b: 0, a: 0}
   facingRight: 1
   groundCheck: {fileID: 2986808668074275991}
   checkRadius: 0
@@ -124,6 +126,11 @@ MonoBehaviour:
   knockbackLength: 0.2
   knockbackCount: 0
   knockFromRight: 1
+  collectibleCount: 0
+  maxCollectibles: 0
+  collectibleCounter: {fileID: 0}
+  collectibleType: 
+  collectibleExists: 0
 --- !u!50 &2986808667962475405
 Rigidbody2D:
   serializedVersion: 4
@@ -139,7 +146,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 4.2
   m_Material: {fileID: 6200000, guid: 3d161325c5c29f345bbfeb2236256a1c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
