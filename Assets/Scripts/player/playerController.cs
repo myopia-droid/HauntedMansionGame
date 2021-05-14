@@ -158,7 +158,7 @@ public class playerController : MonoBehaviour {
       }
 
       //resets playerprefs used for testing
-      if (Input.GetKeyDown(KeyCode.R)) {
+      /*if (Input.GetKeyDown(KeyCode.R)) {
         PlayerPrefs.DeleteKey(collectibleType);
         collectibleCount = 0;
         PlayerPrefs.Save();
@@ -167,7 +167,7 @@ public class playerController : MonoBehaviour {
 
       if (Input.GetKeyDown(KeyCode.T)) {
         Debug.Log("checksave" + PlayerPrefs.GetFloat(collectibleType));
-      }
+      }*/
 
       if (collectibleExists == true) {
         collectibleCounter.text = PlayerPrefs.GetFloat(collectibleType).ToString() + "/" + maxCollectibles.ToString();

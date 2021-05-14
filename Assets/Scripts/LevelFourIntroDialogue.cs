@@ -31,5 +31,6 @@ public class LevelFourIntroDialogue : MonoBehaviour
     void GoToPlatformer()
     {
         SceneManager.LoadScene("Level4 first");
+        PlayerPrefs.DeleteAll();
     }
 }

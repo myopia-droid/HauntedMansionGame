@@ -36,5 +36,6 @@ public class ReloadCurrentScene : MonoBehaviour
     void ReloadScene()
     {
         SceneManager.LoadScene(sceneName);
+        PlayerPrefs.DeleteAll();
     }
 }

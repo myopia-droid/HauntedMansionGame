@@ -759,3 +759,13 @@ candidates check time : 28ms
 >>>>>>> Stashed changes
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 15/05/2021 3:05:59 AM : Starting D:/unity/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 7067.7291ms
+moved types parse time: 58ms
+candidates parse time : 1ms
+C# parse time         : 1011ms
+candidates check time : 34ms
+console write time    : 0ms
+
