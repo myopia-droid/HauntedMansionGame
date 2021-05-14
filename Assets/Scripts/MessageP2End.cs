@@ -19,6 +19,7 @@ public class MessageP2End : MonoBehaviour
         dialogTexts.Add(new DialogData("You should come with me. It’s not safe here.", "Protagonist"));
         dialogTexts.Add(new DialogData("You are a compassionate soul, I can tell. Thank you, but safe or not…", "Younggirl"));
         DialogData finalLine = new DialogData("I cannot leave the library.", "Younggirl");
+        dialogTexts.Add(finalLine);
 
         DialogManager.Show(dialogTexts);
 
