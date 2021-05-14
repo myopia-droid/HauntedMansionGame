@@ -30,7 +30,7 @@ public class LevelThreeIntro : MonoBehaviour
 
     public void GoToMainScene()
     {
-        SceneManager.LoadScene("Level4Intro");
+        SceneManager.LoadScene("Level3");
     }
 
 }

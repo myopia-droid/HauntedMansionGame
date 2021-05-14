@@ -122,6 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f79fcf96ca136498549ac8c37f511d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaToLoad: Nursery Stage
+  areaToLoad: Level1Outro
   player: {fileID: 0}
   collectiblesPerStage: 1

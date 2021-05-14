@@ -30,5 +30,6 @@ public class LevelOneIntroDialogue : MonoBehaviour
     void GoToPlatformer()
     {
         SceneManager.LoadScene("Nursery Stage");
+        PlayerPrefs.DeleteAll();
     }
 }
