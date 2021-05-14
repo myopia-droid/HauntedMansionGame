@@ -5127,7 +5127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaToLoad: Nursery Boss
   player: {fileID: 0}
-  collectiblesPerStage: 0
+  collectiblesPerStage: 2
 --- !u!1 &1956224780
 GameObject:
   m_ObjectHideFlags: 0
