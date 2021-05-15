@@ -2862,8 +2862,8 @@ MonoBehaviour:
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
-  heart: {fileID: 0}
+  player: {fileID: 129662987}
+  heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!114 &434735593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3577,6 +3577,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+--- !u!114 &602509203 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 62268297463055684, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
+  m_PrefabInstance: {fileID: 1398800128}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &640608843
 GameObject:
   m_ObjectHideFlags: 0
@@ -4610,8 +4621,8 @@ MonoBehaviour:
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
-  heart: {fileID: 0}
+  player: {fileID: 129662987}
+  heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!114 &785548279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4816,7 +4827,7 @@ MonoBehaviour:
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 129662987}
   heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!60 &793915727
 PolygonCollider2D:
@@ -6015,7 +6026,7 @@ MonoBehaviour:
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 129662987}
   heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!60 &1074510188
 PolygonCollider2D:
@@ -8730,7 +8741,7 @@ MonoBehaviour:
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 129662987}
   heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!60 &1620678832
 PolygonCollider2D:
@@ -9617,6 +9628,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: healthBarFill
+      value: 
+      objectReference: {fileID: 602509203}
+    - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: collectibleType
       value: key
       objectReference: {fileID: 0}
@@ -9632,6 +9647,10 @@ PrefabInstance:
       propertyPath: collectibleExists
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: collectibleCounter
+      value: 
+      objectReference: {fileID: 379185025}
     - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: whatIsGround.m_Bits
       value: 64
