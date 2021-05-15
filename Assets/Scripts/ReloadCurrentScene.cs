@@ -32,7 +32,8 @@ public class ReloadCurrentScene : MonoBehaviour
 
         if (playerScript.health <= 0)
         {
-            ReloadScene();
+          SceneManager.LoadScene(sceneName);
+          PlayerPrefs.SetFloat("health", 20);
         }
     }
 
