@@ -5,8 +5,8 @@ using UnityEngine;
 public class upAndDown : MonoBehaviour
 {
   int direction = 1; //int direction where 0 is stay, 1 up, -1 down    
-    public int top;
-    public int bottom;
+    public float top;
+    public float bottom;
 
     public float speed;
 
