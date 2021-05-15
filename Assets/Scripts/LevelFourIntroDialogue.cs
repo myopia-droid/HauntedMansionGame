@@ -35,7 +35,7 @@ public class LevelFourIntroDialogue : MonoBehaviour
 
     void GoToPlatformer()
     {
-        SceneManager.LoadScene("Level4 first");
+        SceneManager.LoadScene("Level4Main");
         PlayerPrefs.DeleteAll();
         PlayerPrefs.SetFloat("health", health);
     }
