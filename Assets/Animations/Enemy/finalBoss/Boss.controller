@@ -141,6 +141,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &770270052132170335
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: intro
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: bbbcbb499dda035408e89b8d0ceff3bf, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!114 &2730149692375675976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -251,9 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ee43fdf90561c14fb8eb3cc82bbb79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthController: {fileID: 2909741456304469787, guid: 7ce759c130930fb45bc3c5f4f14e3f38, type: 3}
   player: {fileID: 2986808667962475633, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
-  pc: {fileID: 0}
   timer: 0
 --- !u!1102 &5139291265870617634
 AnimatorState:
@@ -357,6 +381,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -3099729783937691202}
     m_Position: {x: 490, y: 370, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 770270052132170335}
+    m_Position: {x: 210, y: 110, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -366,4 +393,4 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 230, y: 300, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 586945499090099827}
+  m_DefaultState: {fileID: 770270052132170335}

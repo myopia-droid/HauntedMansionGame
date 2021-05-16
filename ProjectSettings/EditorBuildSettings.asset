@@ -71,4 +71,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: adcbe28e190c33541b7f793330f261a0
+  - enabled: 1
+    path: Assets/Scenes/Level5/Level5Intro.unity
+    guid: b7bba58406c374542a6a3732d40c8cac
+  - enabled: 1
+    path: Assets/Scenes/Level5/FinalBoss.unity
+    guid: c3ae0ebb32bd15e4fa71e486bbebe91d
   m_configObjects: {}
