@@ -33,7 +33,7 @@ public class bodyPartDmg : MonoBehaviour
           StartCoroutine(invul());
         }
       }
-      Debug.Log("Other Collider:" + col.name);
+      //Debug.Log("Other Collider:" + col.name);
     }
 
     IEnumerator invul() {

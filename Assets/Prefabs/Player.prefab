@@ -116,7 +116,7 @@ MonoBehaviour:
   lowHealthColor: {r: 0, g: 0, b: 0, a: 0}
   facingRight: 1
   groundCheck: {fileID: 2986808668074275991}
-  checkRadius: 0
+  checkRadius: 0.5
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64

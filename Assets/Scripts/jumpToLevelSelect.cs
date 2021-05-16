@@ -11,7 +11,7 @@ public class jumpToLevelSelect : MonoBehaviour
       SceneManager.LoadScene("LevelSelect", LoadSceneMode.Additive);
       inLevelSelect = true;
     } else if (inLevelSelect == true && Input.GetKeyDown("backspace")){
-      SceneManager.UnloadScene("LevelSelect");
+      SceneManager.UnloadSceneAsync("LevelSelect");
       inLevelSelect = false;
     }
   }
