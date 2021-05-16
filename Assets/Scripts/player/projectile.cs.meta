@@ -3,7 +3,9 @@ guid: bd9aae775dae66d4fbe2f62a445194a4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - playerController: {fileID: 2986808667962475633, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+  - destroyMagic: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
