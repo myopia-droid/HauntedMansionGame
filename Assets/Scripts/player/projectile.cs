@@ -45,7 +45,6 @@ public class projectile : MonoBehaviour {
       if (hitInfo.collider != null) {
         if (hitInfo.collider.CompareTag("Enemy")) {
           hitInfo.collider.GetComponent<bodyPartDmg>().takeDamage(damage);
-                Debug.Log("Damage of projectile is " + damage);
                 shake.shake();
         }
         destroyProjectile();

@@ -2697,4 +2697,11 @@ AnimationClip:
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 1.4833333
+    functionName: damagePlayerWithSwipe
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 021cea4e8455dda4c944111758de76c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

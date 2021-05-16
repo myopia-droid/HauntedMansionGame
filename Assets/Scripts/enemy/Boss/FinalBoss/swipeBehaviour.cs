@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class swipeBehaviour : StateMachineBehaviour
 {
- //SWIPER NO SWIPING
 
     public GameObject player;
     public float timer;
@@ -14,6 +13,7 @@ public class swipeBehaviour : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         timer = animator.GetCurrentAnimatorClipInfo(0)[0].clip.length;
+
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -21,7 +21,7 @@ public class swipeBehaviour : StateMachineBehaviour
     {
         if (timer <= 0.0)
         {
-            animator.SetTrigger("idle");
+            animator.SetTrigger("idleLeft");
         } else
         {
             timer -= Time.deltaTime;
@@ -31,7 +31,6 @@ public class swipeBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //DAMAGE PLAYER IF ON THE SIDE OF THE SCREEN SWIPED AT
 
     }
 }
