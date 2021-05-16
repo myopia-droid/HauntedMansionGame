@@ -24,10 +24,6 @@ public class enemyMechs : MonoBehaviour {
 
 //main script that sets enemy values like HP and how much damage it can deal per hit
     void Update() {
-        Debug.Log("Health of the enemy is" + health);
-
-
-
         healthBar.value = health;
       if (health <= 0) {
         Instantiate(deathFX, transform.position, Quaternion.identity);
