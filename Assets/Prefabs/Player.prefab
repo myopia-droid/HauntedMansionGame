@@ -120,7 +120,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
-  doubleJump: 2
+  doubleJump: 1
   knockbackX: 10
   knockbackY: 5
   knockbackLength: 0.2
