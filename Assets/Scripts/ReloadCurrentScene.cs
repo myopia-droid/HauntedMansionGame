@@ -44,4 +44,11 @@ public class ReloadCurrentScene : MonoBehaviour
         PlayerPrefs.DeleteAll();
         PlayerPrefs.SetFloat("health", health);
     }
+
+    void OnTriggerEnter2D (Collider2D other) {
+      if (other.gameObject.tag == "Player") {
+        ReloadScene();
+        Debug.Log("playerHp" + PlayerPrefs.GetFloat("health"));
+      }
+    }
 }
