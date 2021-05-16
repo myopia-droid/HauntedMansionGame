@@ -15,7 +15,7 @@ public class lightLock : MonoBehaviour
     void Update()
     {
       if (player.facingRight == false) {
-        transform.position = new Vector3(transform.position.x, transform.position.y, -0.37f);
+        transform.position = new Vector3(transform.position.x, transform.position.y, -1f);
       }
     }
 }
