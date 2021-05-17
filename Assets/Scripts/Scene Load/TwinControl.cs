@@ -20,7 +20,7 @@ public class TwinControl : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             msg.enabled=true;
-            msg.text= "Press [w] or [↑] to give her the eye!";
+            msg.text= "Press [w] or [↑] to give her the eye";
             if(Input.GetKeyDown(KeyCode.W)||Input.GetKeyDown(KeyCode.UpArrow)){
                 SceneManager.LoadScene("Level4Outro");
             }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GirlControler : MonoBehaviour
 {
@@ -21,11 +22,10 @@ public class GirlControler : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             showpresse.enabled=true;
-            showpresse.text= "Press [w] or [↑] to give her cloths!";
+            showpresse.text= "Press [w] or [↑] to give her the cloths";
             //light.GetComponent<Light>().intensity=10; 
             if(Input.GetKeyDown(KeyCode.W)||Input.GetKeyDown(KeyCode.UpArrow)){
-                door.GetComponent<Renderer>().enabled=true;
-                light.GetComponent<Light>().intensity=5;
+                SceneManager.LoadScene("EndofPlatform2");
             }
 
         }
