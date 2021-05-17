@@ -1610,9 +1610,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d40443dc2bab47b42b6e243899360935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaToLoad: Level4Letter
   player: {fileID: 1430468100}
-  collectiblesPerStage: 1
+  collectiblesPerStage: 0
 --- !u!1 &847692772
 GameObject:
   m_ObjectHideFlags: 0
