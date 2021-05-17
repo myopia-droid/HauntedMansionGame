@@ -377,6 +377,7 @@ GameObject:
   - component: {fileID: 1499130926}
   - component: {fileID: 1499130925}
   - component: {fileID: 1499130928}
+  - component: {fileID: 1499130929}
   m_Layer: 5
   m_Name: levelSelect
   m_TagString: Untagged
@@ -499,6 +500,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 1499130925}
   targetSceneString: LevelSelect
+--- !u!114 &1499130929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499130923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368756acebf147d459b5e516894809cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1711830592
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,6 +791,7 @@ GameObject:
   - component: {fileID: 1997271872}
   - component: {fileID: 1997271871}
   - component: {fileID: 1997271874}
+  - component: {fileID: 1997271875}
   m_Layer: 5
   m_Name: startButton
   m_TagString: Untagged
@@ -900,3 +914,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 1997271871}
   targetSceneString: Tutorial
+--- !u!114 &1997271875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997271869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368756acebf147d459b5e516894809cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
