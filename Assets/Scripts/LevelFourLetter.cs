@@ -32,7 +32,7 @@ public class LevelFourLetter : MonoBehaviour
 
     void GoToPlatformer()
     {
-        SceneManager.LoadScene("Level4Outro");
+        SceneManager.LoadScene("Level3Outro");
         //PlayerPrefs.DeleteAll();
         PlayerPrefs.SetFloat("health", health);
     }

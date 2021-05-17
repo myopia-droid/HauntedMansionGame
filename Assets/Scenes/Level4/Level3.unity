@@ -3841,7 +3841,7 @@ GameObject:
   - component: {fileID: 392070449}
   m_Layer: 0
   m_Name: eye
-  m_TagString: Untagged
+  m_TagString: collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7407,9 +7407,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f79fcf96ca136498549ac8c37f511d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaToLoad: Level3Outro
+  areaToLoad: Level4Outro
   player: {fileID: 88747836}
-  collectiblesPerStage: 0
+  collectiblesPerStage: 1
 --- !u!65 &660831983
 BoxCollider:
   m_ObjectHideFlags: 0
