@@ -1572,6 +1572,14 @@ PrefabInstance:
       propertyPath: m_UseAutoMass
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1189573398}
+    - target: {fileID: 2986808667962475406, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+      propertyPath: healthBarFill
+      value: 
+      objectReference: {fileID: 1568612999}
     - target: {fileID: 2986808667962475633, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2568,11 +2576,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 62268298186228562, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 62268298186228562, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 62268298186228563, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
       propertyPath: m_Color.b
@@ -6679,6 +6687,17 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1189573398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 62268296547010928, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
+  m_PrefabInstance: {fileID: 491772031}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1194060953
 GameObject:
   m_ObjectHideFlags: 0
@@ -9100,7 +9119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1485472840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9447,6 +9466,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1568612999 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 62268297463055684, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
+  m_PrefabInstance: {fileID: 491772031}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1579192929 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2986808667962475400, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+  m_PrefabInstance: {fileID: 325864361}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1643514558 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7193567753640498725, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
@@ -10556,7 +10591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2927d05cf2f3feb409734326389fa02a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 1579192929}
   bounds: 1
   minCameraPos: {x: -17.5, y: 0, z: 0}
   maxCameraPos: {x: 55, y: 0, z: 0}
