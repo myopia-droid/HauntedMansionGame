@@ -21,15 +21,13 @@ public class bossHead : MonoBehaviour
      yield return new WaitForSeconds(30); //waits 15 seconds
      Destroy(oldPrefab);
      //GameObject.Find("boss2").SetActive(true);
-     Instantiate(Boss1, transform.position, Quaternion.identity);
-        
-    
+     Instantiate(Boss1, transform.position, Quaternion.identity);    
     }
 }
 // Update is called once per frame
     /*void Update()
     {
-     
+
      if(this.timer > 10.0f){
          Instantiate(myPrefab, new Vector3(transform.position.x, -180f, 0), Quaternion.identity);
         //GameObject.Find("boss").SetActive(false);

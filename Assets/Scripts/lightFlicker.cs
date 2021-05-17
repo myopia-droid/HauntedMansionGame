@@ -7,7 +7,7 @@ public class lightFlicker : MonoBehaviour
     public Light gearLight;
     public Light candleA;
     public Light candleB;
-    public Light lantern;
+    //public Light lantern;
     public float timer;
 
     public bool lightsOn = true;
@@ -61,7 +61,7 @@ public class lightFlicker : MonoBehaviour
         }
         candleA.intensity = 0;
         candleB.intensity = 0;
-        lantern.intensity = 0;
+        //lantern.intensity = 0;
         RenderSettings.ambientLight = darknessColour;
     }
 
@@ -73,10 +73,10 @@ public class lightFlicker : MonoBehaviour
         }
         candleA.intensity = 5;
         candleB.intensity = 5;
-        if (lantern != null)
+        /*if (lantern != null)
         {
             lantern.intensity = 4;
-        }
+        }*/
         RenderSettings.ambientLight = brightColour;
     }
 }
