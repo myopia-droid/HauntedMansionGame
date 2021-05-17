@@ -683,7 +683,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 149539018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84588afe3a1ff8f49b28da12970b4c5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ce0c6ee47faf4e4a942767926751aef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DialogManager: {fileID: 119265902}
