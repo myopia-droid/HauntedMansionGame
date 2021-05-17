@@ -336,9 +336,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -1}
   serializedVersion: 2
-  m_Radius: 1.6
+  m_Radius: 2.5
 --- !u!212 &46972477
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2617,8 +2617,8 @@ MonoBehaviour:
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
-  heart: {fileID: 0}
+  player: {fileID: 1490646320}
+  heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!61 &296730832
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2787,7 +2787,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7701627428871070922, guid: 4495487a555522540b51aa0f04631a18, type: 3}
       propertyPath: m_Offset.x
-      value: -96
+      value: -88
+      objectReference: {fileID: 0}
+    - target: {fileID: 7701627428871070922, guid: 4495487a555522540b51aa0f04631a18, type: 3}
+      propertyPath: m_Offset.y
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4495487a555522540b51aa0f04631a18, type: 3}
@@ -2919,7 +2923,7 @@ MonoBehaviour:
   door: {fileID: 0}
   collectible: {fileID: 0}
   player: {fileID: 0}
-  heart: {fileID: 0}
+  heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!61 &344533044
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7918,7 +7922,7 @@ MonoBehaviour:
   door: {fileID: 0}
   collectible: {fileID: 0}
   player: {fileID: 0}
-  heart: {fileID: 0}
+  heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!61 &1039699785
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10119,7 +10123,7 @@ MonoBehaviour:
   door: {fileID: 0}
   collectible: {fileID: 0}
   player: {fileID: 0}
-  heart: {fileID: 0}
+  heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!61 &1434836110
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10830,7 +10834,7 @@ MonoBehaviour:
   door: {fileID: 0}
   collectible: {fileID: 0}
   player: {fileID: 0}
-  heart: {fileID: 0}
+  heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!61 &1599395917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12863,7 +12867,7 @@ MonoBehaviour:
   door: {fileID: 0}
   collectible: {fileID: 0}
   player: {fileID: 0}
-  heart: {fileID: 0}
+  heart: {fileID: 426058347934772993, guid: 4b119ad32b69ba64b9f6dff8e7205f7a, type: 3}
 --- !u!61 &1818387646
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class MessageP2 : MonoBehaviour
     private void Awake()
     {
         var dialogTexts = new List<DialogData>();
+        dialogTexts.Add(new DialogData("Entering a new room...", "Narrator"));
         dialogTexts.Add(new DialogData("You shiver, wishing you had a thick coat as the room feels like a stone icebox instead of a- library?", "Narrator"));
         dialogTexts.Add(new DialogData("Squinting in the dark, you miss the table in front of you until you walk right into it.", "Narrator"));
         dialogTexts.Add(new DialogData("Who- who's there?", "Younggirl"));
