@@ -5653,6 +5653,10 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 62268296547010928, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 62268296547010930, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
       propertyPath: m_Name
       value: playerHP
