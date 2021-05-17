@@ -14,9 +14,9 @@ public class LevelThreeOutro : MonoBehaviour
         var dialogTexts = new List<DialogData>();
 
         dialogTexts.Add(new DialogData("You brought my eye! Thank you... you can put it on the table there.", "Sister"));
-        dialogTexts.Add(new DialogData("I'm sorry... I couldn't find the map, but I'm sure you can find your way... you're not far from the exit..."));
+        dialogTexts.Add(new DialogData("I'm sorry... I couldn't find the map, but I'm sure you can find your way, you're not far from the exit...","Sister"));
         dialogTexts.Add(new DialogData("The girl looks anxious but you nod and head back towards the elevator. The girl said the exit is near, so it should be fine without the map... right?", "Narrator"));
-        DialogData penultimateLine = new DialogData("...", "Narrator");
+        DialogData penultimateLine = new DialogData("...", "Protagonist");
         DialogData finalLine = new DialogData("...Run.", "Brother");
         dialogTexts.Add(penultimateLine);
         dialogTexts.Add(finalLine);

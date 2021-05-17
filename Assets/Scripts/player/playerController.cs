@@ -198,6 +198,10 @@ public class playerController : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("collectible")) {
           Destroy(other.gameObject);
+          if(SceneManager.GetActiveScene().name == "Level3")
+          {
+            collectibleCount += 0.5f;
+          }
           collectibleCount += 0.5f;
           PlayerPrefs.SetFloat(collectibleType, collectibleCount);
           PlayerPrefs.Save();
