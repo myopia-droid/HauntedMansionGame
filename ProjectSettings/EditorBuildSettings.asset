@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial/TutorialIntro.unity
     guid: 985cd748ad9fa7c4eaae15b6b53da87b
   - enabled: 1
+    path: Assets/Scenes/Tutorial/TutorialOutro.unity
+    guid: d4ee0264e2d5e1542bec64f8b6c387f4
+  - enabled: 1
     path: Assets/Scenes/Level 1/Level1Intro.unity
     guid: 2ee905b7a480ead4caaece7733a17acf
   - enabled: 1
@@ -39,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2/EndofPlatform2.unity
     guid: 7c60c6765b3c1bb41a1131802d3ef7bd
   - enabled: 1
-    path: Assets/Scenes/Level3/Level3Intro.unity
+    path: Assets/Scenes/Level4/Level4Intro.unity
     guid: 36950ecf3f783a842afd1290b8699d70
   - enabled: 1
     path: Assets/Scenes/Level3/Level4Main.unity
@@ -51,16 +54,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Level3/Level4Letter.unity
     guid: c92520a7c831f2a4da18e4b48aacdf22
   - enabled: 1
-    path: Assets/Scenes/Level3/Level3Outro.unity
+    path: Assets/Scenes/Level4/Level4Outro.unity
     guid: 22d537ffa3953d746b54d2a84726a941
   - enabled: 1
-    path: Assets/Scenes/Level4/Level4Intro.unity
+    path: Assets/Scenes/Level3/Level3Intro.unity
     guid: 97fbf78e013e9874b8f50ad598ac291d
   - enabled: 1
     path: Assets/Scenes/Level4/Level3.unity
     guid: 9438e830837303b4bb9307e529bd721b
   - enabled: 1
-    path: Assets/Scenes/Level4/Level4Outro.unity
+    path: Assets/Scenes/Level3/Level3Outro.unity
     guid: a06a71a302a6b674586be45d88759ab6
   - enabled: 1
     path: Assets/Scenes/Level5/Level5Intro.unity

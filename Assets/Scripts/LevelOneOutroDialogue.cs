@@ -14,7 +14,8 @@ public class LevelOneOutroDialogue : MonoBehaviour
 
         dialogTexts.Add(new DialogData("You found them! Thank you. It's so hard to tell how much time has passed with no ticking of the clock.", "Governess"));
         dialogTexts.Add(new DialogData("You couldn't catch the rabbit? That's alright, I know his jump has quite a height. But could you do me one more favour?", "Governess"));
-        DialogData finalLine = new DialogData("If you see the children, tell them I love them. Take care.", "Governess");
+        dialogTexts.Add(new DialogData("If you see the children, tell them I love them. Take care.", "Governess"));
+        DialogData finalLine = new DialogData("You got back in the elevator and it starts moving up again...", "Narrator");
         dialogTexts.Add(finalLine);
 
         DialogManager.Show(dialogTexts);

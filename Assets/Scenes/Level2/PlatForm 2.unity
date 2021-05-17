@@ -1624,14 +1624,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942537e18d07a7f4d89411b4ee93a259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 7
+  health: 8
   healthBar: {fileID: 1229753683}
-  damage: 7
+  damage: 6
   deathFX: {fileID: 3386684385487062685, guid: bb2c0345cafb31e4ab17df6b67544696, type: 3}
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 1490646320}
   heart: {fileID: 0}
 --- !u!61 &226283706
 BoxCollider2D:
@@ -2152,14 +2152,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942537e18d07a7f4d89411b4ee93a259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 7
+  health: 8
   healthBar: {fileID: 556136948}
-  damage: 7
+  damage: 6
   deathFX: {fileID: 3386684385487062685, guid: bb2c0345cafb31e4ab17df6b67544696, type: 3}
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 1490646320}
   heart: {fileID: 0}
 --- !u!61 &258321540
 BoxCollider2D:
@@ -2806,7 +2806,7 @@ GameObject:
   - component: {fileID: 331709054}
   m_Layer: 0
   m_Name: Spider
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3721,6 +3721,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1177788539}
     m_Modifications:
     - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Value
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_MaxValue
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Colors.m_NormalColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -4064,6 +4076,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 258321535}
     m_Modifications:
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Value
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_MaxValue
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Colors.m_NormalColor.b
       value: 1
@@ -6461,14 +6485,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942537e18d07a7f4d89411b4ee93a259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 7
+  health: 8
   healthBar: {fileID: 1936766836}
-  damage: 7
+  damage: 6
   deathFX: {fileID: 3386684385487062685, guid: bb2c0345cafb31e4ab17df6b67544696, type: 3}
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 1490646320}
   heart: {fileID: 0}
 --- !u!61 &894069378
 BoxCollider2D:
@@ -6924,14 +6948,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942537e18d07a7f4d89411b4ee93a259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 7
+  health: 8
   healthBar: {fileID: 1898778770}
-  damage: 7
+  damage: 6
   deathFX: {fileID: 3386684385487062685, guid: bb2c0345cafb31e4ab17df6b67544696, type: 3}
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 1490646320}
   heart: {fileID: 0}
 --- !u!61 &907853455
 BoxCollider2D:
@@ -7668,6 +7692,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894069373}
     m_Modifications:
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Value
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_MaxValue
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Colors.m_NormalColor.b
       value: 1
@@ -8923,14 +8959,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942537e18d07a7f4d89411b4ee93a259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 7
+  health: 8
   healthBar: {fileID: 138293302}
-  damage: 7
+  damage: 6
   deathFX: {fileID: 3386684385487062685, guid: bb2c0345cafb31e4ab17df6b67544696, type: 3}
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 1490646320}
   heart: {fileID: 0}
 --- !u!61 &1177788544
 BoxCollider2D:
@@ -10546,6 +10582,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 907853450}
     m_Modifications:
     - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Value
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_MaxValue
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Colors.m_NormalColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -11347,6 +11395,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1715616754}
     m_Modifications:
     - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Value
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_MaxValue
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Colors.m_NormalColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -11982,14 +12042,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942537e18d07a7f4d89411b4ee93a259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 7
+  health: 8
   healthBar: {fileID: 1699791300}
-  damage: 7
+  damage: 6
   deathFX: {fileID: 3386684385487062685, guid: bb2c0345cafb31e4ab17df6b67544696, type: 3}
   isBoss: 0
   door: {fileID: 0}
   collectible: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 1490646320}
   heart: {fileID: 0}
 --- !u!61 &1715616759
 BoxCollider2D:
@@ -13604,6 +13664,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226283701}
     m_Modifications:
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Value
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_MaxValue
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7193567752765875957, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Colors.m_NormalColor.b
       value: 1

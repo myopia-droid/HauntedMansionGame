@@ -880,7 +880,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -297, y: -207}
+  m_AnchoredPosition: {x: -292, y: -198.54}
   m_SizeDelta: {x: 158.3749, y: 52.751}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346723651
@@ -1148,7 +1148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f79fcf96ca136498549ac8c37f511d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaToLoad: Level1Intro
+  areaToLoad: TutorialOutro
   player: {fileID: 1022414426}
   collectiblesPerStage: 0
 --- !u!61 &376049926
@@ -1600,11 +1600,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 62268296547010931, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< Updated upstream
       value: -574
       objectReference: {fileID: 0}
     - target: {fileID: 62268296547010931, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 388
+=======
+      value: -609.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 62268296547010931, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 360.28
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 62268296547010931, guid: adfa50e45f8624c48ad0fc9ad5278a56, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
