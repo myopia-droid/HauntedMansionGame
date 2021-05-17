@@ -2267,6 +2267,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3304754393466243648, guid: bb9577abf0040fe40b1e0ca1ab4758f8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1810422383442878021, guid: e5db55ae935dfe64183b8a3d3a9ce65e, type: 3}
+    - target: {fileID: 3304754393466243648, guid: bb9577abf0040fe40b1e0ca1ab4758f8, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 0
       objectReference: {fileID: 0}
@@ -2558,6 +2562,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 984556642}
+    - target: {fileID: 3304754395026751511, guid: bb9577abf0040fe40b1e0ca1ab4758f8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3304754395026751511, guid: bb9577abf0040fe40b1e0ca1ab4758f8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.16
+      objectReference: {fileID: 0}
     - target: {fileID: 3304754395125633845, guid: bb9577abf0040fe40b1e0ca1ab4758f8, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -2727,8 +2739,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.43342727, y: 0.7610587}
-    oldSize: {x: 7.75, y: 8.47}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.73, y: 8.27}
     newSize: {x: 7.75, y: 8.47}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
