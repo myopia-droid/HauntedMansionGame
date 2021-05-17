@@ -35,6 +35,7 @@ public class ReloadCurrentScene : MonoBehaviour
           SceneManager.LoadScene(sceneName);
           PlayerPrefs.DeleteAll();
           PlayerPrefs.SetFloat("health", 20);
+          Debug.Log("lol dead");
         }
     }
 
