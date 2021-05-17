@@ -879,15 +879,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Color.b
-      value: 0.13124475
+      value: 0.15263437
       objectReference: {fileID: 0}
     - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Color.g
-      value: 0.13124475
+      value: 0.9245283
       objectReference: {fileID: 0}
     - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Color.r
-      value: 0.745283
+      value: 0.1934817
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
@@ -1713,6 +1713,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1191197473
       objectReference: {fileID: 0}
+    - target: {fileID: 7193567753640498727, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7193567753640498730, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Name
       value: enemyHP UI
@@ -1738,8 +1742,16 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Color.b
+      value: 0.18373795
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Color.r
-      value: 0.827451
+      value: 0.18039213
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
@@ -3487,6 +3499,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7193567753640498727, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7193567753640498730, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Name
       value: enemyHP UI
@@ -3513,15 +3529,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Color.b
-      value: 0.13124475
+      value: 0.12941174
       objectReference: {fileID: 0}
     - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Color.g
-      value: 0.13124475
+      value: 0.74509805
       objectReference: {fileID: 0}
     - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Color.r
-      value: 0.745283
+      value: 0.13381122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
@@ -6446,8 +6462,16 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Color.b
+      value: 0.18609491
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Color.r
-      value: 0.827451
+      value: 0.18039213
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
@@ -8102,6 +8126,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1191197473
       objectReference: {fileID: 0}
+    - target: {fileID: 7193567753640498727, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7193567753640498730, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Name
       value: enemyHP UI
@@ -8127,8 +8155,16 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Color.b
+      value: 0.18039213
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193567754423876867, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
       propertyPath: m_Color.r
-      value: 0.827451
+      value: 0.224838
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 748924ebec8b6d14790ec5671eccbc47, type: 3}
