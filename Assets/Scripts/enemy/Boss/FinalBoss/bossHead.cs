@@ -4,27 +4,37 @@ using UnityEngine;
 
 public class bossHead : MonoBehaviour
 {
-    public Sprite head1;
-    public Sprite head2;
-    private SpriteRenderer sR;
-    private float timer;
+   // public GameObject head1;
+   // public GameObject head2;
+    //private float timer;
+    public GameObject Boss1;
+    public GameObject oldPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
-        //head1.GetComponent<Renderer>().enabled==true;
-        //head2.GetComponent<Renderer>().enabled==false;
-        this.timer = Time.deltaTime;
+        StartCoroutine(perish());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(this.timer < 60.0f){
-           sR.sprite = head1;    
-        }
-        if(this.timer > 60.0f){
-            sR.sprite = head2;
-        }
+
+    IEnumerator perish() {
+     yield return new WaitForSeconds(30); //waits 15 seconds
+     Destroy(oldPrefab);
+     //GameObject.Find("boss2").SetActive(true);
+     Instantiate(Boss1, transform.position, Quaternion.identity);
+        
+    
     }
 }
+// Update is called once per frame
+    /*void Update()
+    {
+     
+     if(this.timer > 10.0f){
+         Instantiate(myPrefab, new Vector3(transform.position.x, -180f, 0), Quaternion.identity);
+        //GameObject.Find("boss").SetActive(false);
+       // GameObject.Find("boss2").SetActive(true);
+        //Debug.Log();
+     }
+     public GameObject deathFX;*/
+    // Start is called before the first frame update
