@@ -2492,7 +2492,7 @@ MonoBehaviour:
   playerController: {fileID: 1430468101}
   bounds: 1
   minCameraPos: {x: 3.5, y: 0, z: 0}
-  maxCameraPos: {x: 43, y: 0, z: 0}
+  maxCameraPos: {x: 12.5, y: 0, z: 0}
 --- !u!4 &1352885278
 Transform:
   m_ObjectHideFlags: 0
