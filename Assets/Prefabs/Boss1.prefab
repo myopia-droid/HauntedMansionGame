@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 868791359909130315}
   - component: {fileID: 868791359909130317}
   m_Layer: 7
-  m_Name: arm right
+  m_Name: head
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -841,7 +841,7 @@ GameObject:
   - component: {fileID: 2002438947608791035}
   - component: {fileID: 8851483004511058128}
   m_Layer: 0
-  m_Name: finalBoss_3
+  m_Name: arm right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
