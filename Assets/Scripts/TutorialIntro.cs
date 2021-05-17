@@ -16,8 +16,8 @@ public class TutorialIntro : MonoBehaviour
         var dialogTexts = new List<DialogData>();
 
         dialogTexts.Add(new DialogData("...Huh?", "Narrator"));
-        dialogTexts.Add(new DialogData("How did you get here? You've never seen this elevator before, let alone boarded it. But somehow� you're here. And it's going up.", "Narrator"));
-        dialogTexts.Add(new DialogData("You could be working, but you haven't picked up any exorcism jobs for a while - it's mostly just seances and tarot cards these days - so why are you here?", "Narrator"));
+        dialogTexts.Add(new DialogData("How did you get here? You've never seen this elevator before, let alone boarded it. But somehow you're here. And it's going up.", "Narrator"));
+        //dialogTexts.Add(new DialogData("You could be working, but you haven't picked up any exorcism jobs for a while - it's mostly just seances and tarot cards these days - so why are you here?", "Narrator"));
         DialogData openDoorTrigger = new DialogData("You could be working, but you haven't picked up any exorcism jobs for a while - it's mostly just seances and tarot cards these days - so why are you here?", "Narrator");
         dialogTexts.Add(openDoorTrigger);
         dialogTexts.Add(new DialogData("", "Narrator"));
