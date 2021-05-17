@@ -8,39 +8,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: 0282a309e23f82c418344b6aa3e0b44a
-  - enabled: 0
-    path: Assets/Scenes/Main scene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Level2/PlatForm 2.unity
-    guid: 9658b6e9f2f58e74ba43bed0e1863187
+    path: Assets/Scenes/Tutorial/TutorialIntro.unity
+    guid: 985cd748ad9fa7c4eaae15b6b53da87b
   - enabled: 1
-    path: Assets/Scenes/LevelSelect.unity
-    guid: bd804f680edcbe241a9ad0fdb9b932ce
+    path: Assets/Scenes/Tutorial/Tutorial.unity
+    guid: adcbe28e190c33541b7f793330f261a0
   - enabled: 1
     path: Assets/Scenes/Level 1/Level1Intro.unity
     guid: 2ee905b7a480ead4caaece7733a17acf
   - enabled: 1
-    path: Assets/Scenes/Level2/Level2Intro.unity
-    guid: 6f3687d922d8db54a8c3dd06d161d781
-  - enabled: 1
-    path: Assets/Scenes/Level2/EndofPlatform2.unity
-    guid: 7c60c6765b3c1bb41a1131802d3ef7bd
-  - enabled: 1
-    path: Assets/Scenes/Level 1/Nursery Boss.unity
-    guid: f9af25e311946104b863aaef30699f13
+    path: Assets/Scenes/Level 1/Nursery Stage.unity
+    guid: 4e2610ca255715144b52f19d3a230921
   - enabled: 1
     path: Assets/Scenes/Level 1/Nursery Platformer.unity
     guid: dac83415b3441d24a9f16358cc6fd38d
   - enabled: 1
-    path: Assets/Scenes/Level 1/Nursery Stage.unity
-    guid: 4e2610ca255715144b52f19d3a230921
-  - enabled: 0
-    path: Assets/Scenes/Level3/Level4 first.unity
-    guid: e91cd1bf80f248a4b9886f458d9d6ea6
+    path: Assets/Scenes/Level 1/Nursery Boss.unity
+    guid: f9af25e311946104b863aaef30699f13
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Level1Outro.unity
+    guid: 173e6b976fb0e4f4da02a0905a271c00
+  - enabled: 1
+    path: Assets/Scenes/Level2/Level2Intro.unity
+    guid: 6f3687d922d8db54a8c3dd06d161d781
+  - enabled: 1
+    path: Assets/Scenes/Level2/PlatForm 2.unity
+    guid: 9658b6e9f2f58e74ba43bed0e1863187
+  - enabled: 1
+    path: Assets/Scenes/Level2/EndofPlatform2.unity
+    guid: 7c60c6765b3c1bb41a1131802d3ef7bd
+  - enabled: 1
+    path: Assets/Scenes/Level3/Level3Intro.unity
+    guid: 36950ecf3f783a842afd1290b8699d70
   - enabled: 1
     path: Assets/Scenes/Level3/Level4Main.unity
     guid: 2d306bde1f5ab86469bc07908952da27
@@ -51,30 +51,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Level3/Level4Letter.unity
     guid: c92520a7c831f2a4da18e4b48aacdf22
   - enabled: 1
-    path: Assets/Scenes/Level4/Level3.unity
-    guid: 9438e830837303b4bb9307e529bd721b
+    path: Assets/Scenes/Level3/Level3Outro.unity
+    guid: 22d537ffa3953d746b54d2a84726a941
   - enabled: 1
     path: Assets/Scenes/Level4/Level4Intro.unity
     guid: 97fbf78e013e9874b8f50ad598ac291d
   - enabled: 1
+    path: Assets/Scenes/Level4/Level3.unity
+    guid: 9438e830837303b4bb9307e529bd721b
+  - enabled: 1
     path: Assets/Scenes/Level4/Level4Outro.unity
     guid: a06a71a302a6b674586be45d88759ab6
-  - enabled: 1
-    path: Assets/Scenes/Level 1/Level1Outro.unity
-    guid: 173e6b976fb0e4f4da02a0905a271c00
-  - enabled: 1
-    path: Assets/Scenes/Level3/Level3Intro.unity
-    guid: 36950ecf3f783a842afd1290b8699d70
-  - enabled: 1
-    path: Assets/Scenes/Level3/Level3Outro.unity
-    guid: 22d537ffa3953d746b54d2a84726a941
-  - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: adcbe28e190c33541b7f793330f261a0
   - enabled: 1
     path: Assets/Scenes/Level5/Level5Intro.unity
     guid: b7bba58406c374542a6a3732d40c8cac
   - enabled: 1
     path: Assets/Scenes/Level5/FinalBoss.unity
     guid: c3ae0ebb32bd15e4fa71e486bbebe91d
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: bd804f680edcbe241a9ad0fdb9b932ce
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
