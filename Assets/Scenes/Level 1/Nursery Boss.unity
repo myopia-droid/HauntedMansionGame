@@ -1071,8 +1071,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 19893252}
   bounds: 1
-  minCameraPos: {x: -16.2, y: 0, z: 0}
-  maxCameraPos: {x: 17, y: 0, z: 0}
+  minCameraPos: {x: -14.5, y: 0, z: 0}
+  maxCameraPos: {x: 15.7, y: 0, z: 0}
 --- !u!4 &620051912
 Transform:
   m_ObjectHideFlags: 0
@@ -1257,6 +1257,10 @@ PrefabInstance:
     - target: {fileID: 8212945021717214352, guid: 4495487a555522540b51aa0f04631a18, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212945021717214352, guid: 4495487a555522540b51aa0f04631a18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.09
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4495487a555522540b51aa0f04631a18, type: 3}

@@ -12,7 +12,7 @@ public class GirlControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     void OnTriggerStay2D(Collider2D other){
@@ -27,7 +27,7 @@ public class GirlControler : MonoBehaviour
                 door.GetComponent<Renderer>().enabled=true;
                 light.GetComponent<Light>().intensity=5;
             }
-            
+
         }
         }
     }
