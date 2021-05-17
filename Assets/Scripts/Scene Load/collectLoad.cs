@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class collectLoad : MonoBehaviour
 {
-  public string areaToLoad;
+  //public string areaToLoad;
   public playerController player;
   public float collectiblesPerStage;
 
@@ -16,7 +16,7 @@ public class collectLoad : MonoBehaviour
     void OnTriggerEnter2D (Collider2D other) {
           if (other.tag == "Player") {
             if (player.collectibleExists == true && player.collectibleCount >= collectiblesPerStage) {
-             SceneManager.LoadScene(areaToLoad);
+             SceneManager.LoadScene("Level4Letter");
       }
           }
     }
