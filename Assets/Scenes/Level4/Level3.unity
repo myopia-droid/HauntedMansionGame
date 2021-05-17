@@ -7409,7 +7409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaToLoad: Level4Outro
   player: {fileID: 88747836}
-  collectiblesPerStage: 1
+  collectiblesPerStage: 0
 --- !u!65 &660831983
 BoxCollider:
   m_ObjectHideFlags: 0
