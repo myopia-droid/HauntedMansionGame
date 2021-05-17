@@ -9,6 +9,7 @@ public class TutorialIntro : MonoBehaviour
 {
     public DialogManager DialogManager;
     public Image bg;
+    public Sprite openDoorSprite;
 
     void Awake()
     {
@@ -16,8 +17,10 @@ public class TutorialIntro : MonoBehaviour
         
         dialogTexts.Add(new DialogData("...Huh?", "Narrator"));
         dialogTexts.Add(new DialogData("How did you get here? You've never seen this elevator before, let alone boarded it. But somehow… you're here. And it's going up.", "Narrator"));
+        dialogTexts.Add(new DialogData("You could be working, but you haven't picked up any exorcism jobs for a while - it's mostly just seances and tarot cards these days - so why are you here?", "Narrator"));
         DialogData openDoorTrigger = new DialogData("You could be working, but you haven't picked up any exorcism jobs for a while - it's mostly just seances and tarot cards these days - so why are you here?", "Narrator");
         dialogTexts.Add(openDoorTrigger);
+        dialogTexts.Add(new DialogData("", "Narrator"));
         openDoorTrigger.Callback = () => openDoors();
         dialogTexts.Add(new DialogData("Hello?", "Protagonist"));
         dialogTexts.Add(new DialogData("Something thuds heavily in the dark. You clench your fists, and realise there's a lantern dangling from your hand.", "Narrator"));
@@ -33,7 +36,7 @@ public class TutorialIntro : MonoBehaviour
 
     void openDoors()
     {
-        //change sprite
+        bg.sprite = openDoorSprite;
     }
 
     void GoToTutorial()
