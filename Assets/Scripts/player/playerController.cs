@@ -210,7 +210,11 @@ public class playerController : MonoBehaviour {
         }
 
         if (other.gameObject.CompareTag("heart")) {
-          health += 2.5f;
+          if (health <= 15) {
+            health += 2.5f;
+          } else if (health > 15){
+            health = 20;
+          }
           Destroy(other.gameObject);
         }
       }

@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ab5881309e93f74490079c874f6d54a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2986808667962475633, guid: b64eeb89d8f058942a2ec0b4ac83add4, type: 3}
+  player: {fileID: 625383315}
 --- !u!4 &295423018
 Transform:
   m_ObjectHideFlags: 0
