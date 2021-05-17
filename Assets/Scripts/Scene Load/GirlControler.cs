@@ -12,7 +12,7 @@ public class GirlControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     void OnTriggerStay2D(Collider2D other){
@@ -22,12 +22,12 @@ public class GirlControler : MonoBehaviour
         {
             showpresse.enabled=true;
             showpresse.text= "Press [w] to give her cloth!";
-            //light.GetComponent<Light>().intensity=10; 
-            if(Input.GetKeyDown("w")||Input.GetKeyDown("w")){
+            //light.GetComponent<Light>().intensity=10;
+            if(Input.GetKeyDown("w")||Input.GetKeyDown(KeyCode.UpArrow)){
                 door.GetComponent<Renderer>().enabled=true;
                 light.GetComponent<Light>().intensity=5;
             }
-            
+
         }
         }
     }
