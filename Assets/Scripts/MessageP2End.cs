@@ -17,7 +17,7 @@ public class MessageP2End : MonoBehaviour
         dialogTexts.Add(new DialogData("You see, I ran out of firewood, but I could not bear to use the books as kindling.", "Younggirl"));
         dialogTexts.Add(new DialogData("I have good news, though. According to the library records, a map of the manor was checked out by\nDr. Edwards, and his office is only one floor above.", "Younggirl"));
         dialogTexts.Add(new DialogData("You should come with me. It’s not safe here.", "Protagonist"));
-        dialogTexts.Add(new DialogData("You are a compassionate soul, I can tell. Thank you, but safe or not…", "Younggirl"));
+        dialogTexts.Add(new DialogData("You are a compassionate soul, I can tell. Thank you, but safe or not...", "Younggirl"));
         DialogData finalLine = new DialogData("I cannot leave the library.", "Younggirl");
         dialogTexts.Add(finalLine);
 

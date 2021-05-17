@@ -19,7 +19,7 @@ public class LevelFiveIntro : MonoBehaviour {
         dialogTexts.Add(new DialogData("I’m sorry we deceived you. Please know we did not of our own volition.", "Governess"));
         dialogTexts.Add(new DialogData("She controls the house, and everything inside.", "Boy"));
         dialogTexts.Add(new DialogData("Including us.", "Girl"));
-        dialogTexts.Add(new DialogData("It was part of her plan, to bring you here. She wasn’t strong enough to make us solid before, but now…", "Sister"));
+        dialogTexts.Add(new DialogData("It was part of her plan, to bring you here. She wasn’t strong enough to make us solid before, but now...", "Sister"));
         dialogTexts.Add(new DialogData("They solemnly piece together familiar objects.", "Narrator"));
         dialogTexts.Add(new DialogData("Gears for movement.", "Narrator"));
         dialogTexts.Add(new DialogData("Fabric for a dress.", "Narrator"));
@@ -31,11 +31,10 @@ public class LevelFiveIntro : MonoBehaviour {
         dialogTexts.Add(new DialogData("No! They can’t leave me! Papa left me to be with his mistress, and Mama slashed me to ribbons because of it. Every psychic I’ve called to me through the veil has left me in a haze of red.", "Doll"));
         dialogTexts.Add(new DialogData("I won’t be abandoned again. I won’t be alone.", "Doll"));
         dialogTexts.Add(new DialogData("You’ve done this before.", "Protagonist"));
-        dialogTexts.Add(new DialogData("Yes! But none have gotten as far as you. They were slayed by my creations and became… spare parts.", "Doll"));
+        dialogTexts.Add(new DialogData("Yes! But none have gotten as far as you. They were slayed by my creations and became... spare parts.", "Doll"));
         dialogTexts.Add(new DialogData("But you’re stronger than that. You could stay here, with me. You’d never be lonely again. No one would ever leave you because nobody could.", "Doll"));
         dialogTexts.Add(new DialogData("I’d rather die.", "Protagonist"));
-        dialogTexts.Add(new DialogData("Suit yourself.", "Doll"));
-        DialogData finalLine = new DialogData("The only way to help these souls is to find the exit\nand let in the light.", "Narrator");
+        DialogData finalLine = new DialogData("Suit yourself.", "Doll");
         dialogTexts.Add(finalLine);
 
         DialogManager.Show(dialogTexts);
