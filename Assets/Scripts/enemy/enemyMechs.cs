@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class enemyMechs : MonoBehaviour {
   public int health;
@@ -27,6 +28,10 @@ public class enemyMechs : MonoBehaviour {
         healthBar.value = health;
       if (health <= 0) {
         Instantiate(deathFX, transform.position, Quaternion.identity);
+            if (SceneManager.GetActiveScene().name == "FinalBoss")
+            {
+                SceneManager.LoadScene("Level5Outro");
+            }
         if(Random.Range(0f, 1f) <= dropChance) {
           Instantiate(heart, transform.position, Quaternion.identity); //drops heart
         }
