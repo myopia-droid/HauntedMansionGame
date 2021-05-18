@@ -14,14 +14,14 @@ public class DamagePlayerLvl5 : MonoBehaviour
         {
             if (player.transform.position.x > 0.86) //swipe left is the BOSS'S left, not the left side of the screen
             {
-                player.GetComponent<playerController>().health -= 20; //harm
+                player.GetComponent<playerController>().health -= 5; //harm
             }
 
         } else //If the current animation is SWIPE, not SWIPELEFT
         {
             if (player.transform.position.x < 0.86) //if player is on the right
             {
-                player.GetComponent<playerController>().health -= 20; //harm
+                player.GetComponent<playerController>().health -= 5; //harm
             }
         }
 

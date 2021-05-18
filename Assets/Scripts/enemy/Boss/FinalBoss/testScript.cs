@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class testScript : MonoBehaviour
 {
@@ -24,5 +25,6 @@ public class testScript : MonoBehaviour
      //GameObject.Find("boss2").SetActive(true);
      Instantiate (boss1, this.transform.position, Quaternion.Euler(0, 180, 0));
      Destroy(oldPrefab);
+        SceneManager.LoadScene("Level5Outro");
     }
 }
