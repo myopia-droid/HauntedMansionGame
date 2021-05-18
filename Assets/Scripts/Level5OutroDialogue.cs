@@ -12,10 +12,10 @@ public class Level5OutroDialogue : MonoBehaviour
     {
         var dialogTexts = new List<DialogData>();
 
-        dialogTexts.Add(new DialogData("She's gone...", "Girl"));
+        dialogTexts.Add(new DialogData("She's gone...", "Sister"));
         dialogTexts.Add(new DialogData("You've freed us from her control. Thank you.", "Governess"));
         dialogTexts.Add(new DialogData("The monster... gone...", "Brother"));
-        dialogTexts.Add(new DialogData("Brother, how can you say that? She was our friend once!", "Sister"));
+        dialogTexts.Add(new DialogData("How can you say that? She was our friend once!", "Girl"));
         dialogTexts.Add(new DialogData("Our friend died along with her mother's sanity. That was a machine of resentment and death.", "Boy"));
         dialogTexts.Add(new DialogData("Children, stop that. Let's... let's go home.", "Governess"));
         dialogTexts.Add(new DialogData("They fade away.", "Narrator"));
